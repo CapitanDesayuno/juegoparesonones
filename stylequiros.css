@@ -1,0 +1,53 @@
+@font-face {
+  font-family: letrapeques;
+  src: url(font/KidsFirstABC.ttf);
+} 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.pantalla{
+    position:relative;
+    width:900px;
+    height: 600px;
+    background-color: beige;
+    margin:1em;
+    text-align: center;
+    font-size: 4em;
+    font-family: letrapeques, fantasy;
+}
+.botones{
+    font-family: letrapeques, fantasy;
+    font-size: 1em;
+    width: auto;
+    border-radius: 1em;
+    background-color: azure;
+    
+}
+#pantalla1{
+    background-image:url(nina-tomando-un-bano.png);
+    background-size: 45%,20%;
+    background-position: bottom right, top center;
+    background-repeat: no-repeat,no-repeat;
+}
+#display{
+    list-style: none;
+}
+
+
+button{
+    font-family: letrapeques, fantasy;
+    font-size: 0.5em;
+    width: auto;
+    background-color: azure;
+    border-radius: 1em;
+    color:black;
+}
+
+#bye{font-size:5em;}
+
